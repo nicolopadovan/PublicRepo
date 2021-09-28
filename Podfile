@@ -17,6 +17,6 @@ target 'Test2' do
   end
 
 pod 'AlgoliaSearchClient', '~> 8.0'
-pod 'InstaSearch', '~> 7'
+pod 'InstantSearch', '~> 7'
 
 end
