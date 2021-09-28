@@ -13,8 +13,8 @@ class AlgoliaManager: NSObject {
     
     static let shared = AlgoliaManager()
     
-    fileprivate static let appID: ApplicationID = "7XV51LHQVK"
-    fileprivate static let apiKey: APIKey = APIKey(rawValue: "1ee14d82ea4a31c80a345b33364f03d7")
+    fileprivate static let appID: ApplicationID = "APP_ID"
+    fileprivate static let apiKey: APIKey = APIKey(rawValue: "API_KEY")
     fileprivate static let indexName: IndexName = "skills_dev"
     fileprivate static let suggestionsIndexName: IndexName = "skills_dev_query_suggestions"
     fileprivate static let client = SearchClient(appID: appID, apiKey: apiKey)
